@@ -1,0 +1,18 @@
+1.	git config --global user.name "Mayank Gupta"
+2.	git config --global user.email "ce.mayank8@gmail.com"
+3.	touch .gitignore # add names of those folders which you don't want to upload in this .gitignore.txt with filename/ or foldername/
+4.	git init
+5.	git add .
+6.	git commit -m "Initial Commit" #Just like a comment
+7.	git status #Just ot see status, not mandaotory.
+8. 	ssh-keygen -t ed25519 -C "ce.mayank8@gmail.com" #to generate the key.
+or	ssh-keygen -t rsa -b 4096 -C "ce.mayank8@gmail.com"
+9.	cat <path to id_rsa.pub> #  to see the generated key. Add this key to your GitHub account (only once, not everytime)
+10.	git remote add origin <sss url.git>
+11.	git push origin master
+
+For updation
+1.	git status
+2.	git add .
+3.	git commit -m "Updation"
+4.	git push origin master
