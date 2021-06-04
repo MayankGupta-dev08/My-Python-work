@@ -1,3 +1,8 @@
+'''Syntax: @nameOfFunction
+Use of this decorator :-'''
+# 	1. When we want to use many different functions as an argument of a Function and keep on using that Function many times.
+# Eg - Here, like whoIsMayank there can be few more functions which could be used after placing a decorator (@dec1).
+
 '''Without function decorator'''
 
 def dec1(func1):
@@ -45,9 +50,3 @@ whoIsMayank()
 # 	7. Printing 2nd line as - Mayank is a good boy.
 # 	8. Printing 3rd line as - Executed!
 #   9. End
-
-
-'''Syntax: @nameOfFunction
-Use of this decorator :-'''
-# 	1. When we want to use many different functions as an argument of a Function and keep on using that Function many times.
-# Eg - Here, like whoIsMayank there can be few more functions which could be used after placing a decorator (@dec1).

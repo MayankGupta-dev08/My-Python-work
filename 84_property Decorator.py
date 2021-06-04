@@ -1,6 +1,6 @@
 '''Property Decorator - @property
 a.k.a - getter method'''
-# .
+
 
 class Employee:
     name = "Bharat Gas"

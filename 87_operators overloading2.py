@@ -1,4 +1,9 @@
-'''Some more examples of Operators Overloading'''
+'''
+Some more examples of Operators Overloading
+For More info related to operators overloading search on google
+Mapping Operators to Functions
+in python documentation
+'''
 class Number:
     def __init__(self, num):
         self.num = num
