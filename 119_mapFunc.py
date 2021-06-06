@@ -6,7 +6,6 @@ a = list(map(func1, inpList))'''
 def square(num):
     return num*num
 
-
 l1 = [1, 3, 5, 7, 9]
 
 # Method 1
@@ -18,5 +17,21 @@ print(l2)
 # Method 2
 a = map(square, l1)
 # We have to typecast the output of map function into a list
-print(list(a))
+print(list(a), "\n")
 # print(list(map(square, l1)))
+
+
+'''Another EXample'''
+
+def sq(a):
+    return a*a
+
+def cub(a):
+    return a*a*a
+
+lst = [sq, cub]
+for i in range(1,6):
+    val = list(map(lambda x:x(i), lst))
+    print(val)
+
+print("\n", val)
