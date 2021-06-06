@@ -1,0 +1,3 @@
+install pyinstaller module from powershell if already not -> pip install pyinstaller
+pyinstaller file name -> pyinstaller 
+

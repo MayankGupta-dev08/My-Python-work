@@ -18,4 +18,7 @@ with open("phonebook.txt", "r") as f:
 # NOTE - This will only give last found result
 # pattern = re.findall(r"[+]91\d+", str)
 pattern = re.findall(r"\W{1}91\d{10}", str)
-print(pattern)
+print(pattern, "\n\n")
+
+phoneNumbers = [number[3:] for number in pattern]
+print(phoneNumbers)

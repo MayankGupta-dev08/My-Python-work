@@ -29,12 +29,3 @@ localTime = time.asctime(time.localtime(time.time()))
 print("")
 print("Using time.asctime(time.localtime(time.time()))")
 print(localTime)
-
-
-'''Using datetime module 
-in this now() is used to get cuurent local time.'''
-import datetime
-localTime2 = datetime.datetime.now()
-print("")
-print("Using datetime.now()")
-print(localTime)

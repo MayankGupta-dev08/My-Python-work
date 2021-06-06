@@ -21,3 +21,8 @@ print(os.path.exists("D:\Mayank\Coding\python"))
 print(os.path.isdir("D:\Mayank\Coding\python"))
 print(os.path.isfile("D:\Mayank\Coding\python"))
 print(os.path.isfile("D:\Mayank\Coding\python\Code_with_Harry\One Video Course\AnotherFile.txt"))
+
+fileName_str = "abc.txt"
+tup = os.path.splitext(fileName_str)
+print("Actual name of file", tup[0])
+print("Extension of file", tup[1])

@@ -1,3 +1,11 @@
+'''Oh Python prettify my folder
+make a func ->  def Soldier (path, filename, exten)
+path = path of folder to be prettified
+filename = noChange.txt, File Name Which Contain Name Of Files which are Not to be Altered
+    since other files or folder's first alphabet will be capitalized
+exten = .jpg or .png, These files will be renamed from 0 to n number of such files.
+'''
+
 import os
 
 def removeFiles(filen):

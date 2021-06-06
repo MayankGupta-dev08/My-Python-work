@@ -29,7 +29,7 @@ if __name__ == "__main__":
             print(f"News{i+1}:  ", artc_d["title"])
             speak(artc_d["title"])
             # speak(artc_d["content"])
-            print(artc_d["description"],"\nFor More Info: ")
+            print(artc_d["content"],"\nFor More Info: ")
             print(artc_d["url"],"\n")
             speak("So now, moving on to the next news of today")
         else:
@@ -37,6 +37,6 @@ if __name__ == "__main__":
             print(f"News{i+1}:  ", artc_d["title"])
             speak(artc_d["title"])
             # speak(artc_d["content"])
-            print(artc_d["description"],"\nFor More Info: ")
+            print(artc_d["content"],"\nFor More Info: ")
             print(artc_d["url"],"\n")
             speak("Thanks for listening patiently, hope to see you tomorrow again!")

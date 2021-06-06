@@ -1,1 +1,12 @@
+Website
+    https://newsapi.org/s/india-news-api
+
+
+API key
 ba4edb5b19e04598b7f4740a0ea716f7
+
+
+This example demonstrates the HTTP request to make, and the JSON response you will receive, when you use the News API to get live headlines from India.
+
+Top headlines from India
+https://newsapi.org/v2/top-headlines?country=in&apiKey=ba4edb5b19e04598b7f4740a0ea716f7
