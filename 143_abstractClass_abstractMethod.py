@@ -23,13 +23,12 @@ class Shape(metaclass = ABCMeta):
 class Square(Shape):
     name = "Square"
 
-    def __init__(self, s1, s2):
-        self.side1 = s1
-        self.side2 = s2
+    def __init__(self, s):
+        self.side = s
         print(f"Shape: {self.name} and it is a {self.type} with {self.sides} sides.")
 
     def printArea(self):
-        return self.side1* self.side2
+        return self.side* self.side
 
 class Rectangle(Shape):
     name = "Rectangle"
@@ -43,7 +42,14 @@ class Rectangle(Shape):
         return self.side1* self.side2
 
 
-sq = Square(4,4)
+sq = Square(4)
 print("Area:", sq.printArea(), "\n")
 rec = Rectangle(4,8)
 print("Area:", rec.printArea())
+
+'''Output
+Shape: Square and it is a Parallelogram with 4 sides.
+Area: 16 
+
+Shape: Rectangle and it is a Parallelogram with 4 sides.
+Area: 32'''

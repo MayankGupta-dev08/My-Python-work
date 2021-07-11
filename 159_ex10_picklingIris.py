@@ -1,4 +1,4 @@
-from typing import ItemsView
+
 import requests
 import pickle
 
